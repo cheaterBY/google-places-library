@@ -83,7 +83,7 @@ class AbstractClient
      */
     public function forceJsonArrayResponse($value = true)
     {
-        $this->forceJsonArrayResponse = true;
+        $this->forceJsonArrayResponse = $value;
     }
 
     /**
